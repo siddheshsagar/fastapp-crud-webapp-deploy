@@ -1,9 +1,9 @@
+import uvicorn
 from fastapi import FastAPI, Query, HTTPException
 from sqlalchemy import create_engine
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import sessionmaker
 from typing import Optional
-import uvicorn
 from Class.classes import *
 from config.configg import *
 
